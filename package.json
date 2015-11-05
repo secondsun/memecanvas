@@ -26,7 +26,7 @@
   "homepage": "https://github.com/Moosylvania/memecanvas",
   "dependencies": {
     "async": "^1.3.0",
-    "canvas":"git://github.com/mauritslamers/node-canvas-bin.git",
+    "canvas-bin":"git://github.com/mauritslamers/node-canvas-bin.git",
     "colors": "^1.1.2",
     "mkdirp": "^0.5.1"
   }
