@@ -54,7 +54,7 @@ memecanvas.generate = function(file, topText, bottomText, next){
                 var memefilename = file.split('/');
                 memefilename = memefilename[memefilename.length-1];
 
-                var parts = memefilename.split('.');
+                var parts = [memefilename,'jpg'];
                 parts.pop();
                 parts.push(appendedFilename+'.png');
 
